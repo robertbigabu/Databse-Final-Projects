@@ -4,7 +4,7 @@ CREATE TABLE public.Users(
     UserID                      Serial,            
     UserName                    VARCHAR (32),
     Email                       VARCHAR (256),
-    UserPassword                VARCHAR (32),
+    UserPassword                VARCHAR (60),
     UserType                    VARCHAR (16),
 
     primary key (UserID)
