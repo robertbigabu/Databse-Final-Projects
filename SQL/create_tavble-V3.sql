@@ -1,4 +1,7 @@
 ----------------------------------------------------------------
+--index
+create index userindex on booking (userid)
+----------------------------------------------------------------
 --USER
 CREATE TABLE public.Users(
     UserID                      INT,            
