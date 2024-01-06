@@ -1,6 +1,7 @@
 ----------------------------------------------------------------
 --index
-create index userindex on booking (userid)
+create index userindex on booking (userid);
+create index violatorindex on Violation (violatorID)
 ----------------------------------------------------------------
 --USER
 CREATE TABLE public.Users(
