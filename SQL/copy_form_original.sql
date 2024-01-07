@@ -10,7 +10,7 @@ CREATE TABLE public.Band (
     ManagerName VARCHAR(32),
     Major_Year VARCHAR(32),
     ManagerPhone CHAR(12)
-);
+);9
 
 -- time slot
 CREATE TABLE public.Schedule (
