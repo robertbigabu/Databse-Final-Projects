@@ -34,6 +34,7 @@ CREATE TABLE public.booking(
     RoomID                      INT,
     BookingDate                 date,
     BookingTime                 INT,
+    End_Time                    INT,
     Purpose                     Varchar(150),
     primary key (bookingID),
     foreign key (UserID) references Users(UserID),
